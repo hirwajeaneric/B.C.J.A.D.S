@@ -1,0 +1,29 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Backend Class Cohort 9 Exercises and Tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hirwajeaneric/B.C.J.A.D.S.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Data",
+    "Structures",
+    "Algorithms"
+  ],
+  "author": "Hirwa Jean Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hirwajeaneric/B.C.J.A.D.S/issues"
+  },
+  "homepage": "https://github.com/hirwajeaneric/B.C.J.A.D.S#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
