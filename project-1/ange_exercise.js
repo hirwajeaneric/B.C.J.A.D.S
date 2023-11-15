@@ -1,1 +1,2 @@
-var a = 0;
+var a = ["sisi", "dada", "fofo","gogo"];
+console.log(a);
