@@ -1,5 +1,8 @@
-function leapYearCalculator() {
+function leapYearChecker() {
     // Write your code here
+    if (a%4===0){
+        return
+    }
     
 };
 
