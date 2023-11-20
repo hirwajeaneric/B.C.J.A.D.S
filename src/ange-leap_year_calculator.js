@@ -7,14 +7,14 @@ function leapYearCalculator(number) {
         return false;
     }
     
-};
-
-console.log (number);
-
-
-module.exports = {
-    leapYearCalculator
 }
+leapYearCalculator(2002)
+console.log (leapYearCalculator(2002));
+
+
+// module.exports = {
+//     leapYearCalculator
+// }
 
 
 
