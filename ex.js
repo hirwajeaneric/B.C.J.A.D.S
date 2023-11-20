@@ -1,37 +1,15 @@
-function leapYearCalculator(year)
-// here i will first check
- {
+function leapYearCalculator(Year) {
     
-    if (year % 4 === 0) {
-      
-      if (year % 100 === 0 && year % 400 !== 0)
-       {
-       
-        return false;
-      }
-       else 
-      {
-        
-        return true;
-      }
-    } 
-    else 
-    {
-      
+    if((Year%4==0) && ((Year%400==0) || (Year%100!==0))){
+      return true;
+  }
+  else{
       return false;
-    }
   }
+  }     
   
- 
-  const yearToCheck = 2024;
-  const isLeapYear = leapYearCalculator(yearToCheck);
-  
-  if (isLeapYear) {
-    console.log(`${yearToCheck} is a leap year.`);
-  } else
-   {
-    console.log(`${yearToCheck} is not a leap year.`);
-  }
+  console.log( leapYearCalculator(2024));
+
   module.exports = {
     leapYearCalculator
 }

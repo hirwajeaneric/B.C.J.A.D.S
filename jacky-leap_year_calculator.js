@@ -1,6 +1,6 @@
-function leapYearCalculator(leapYear) {
+function leapYearCalculator(Year) {
     
-    if((leapYear%4==0) && ((leapYear%400==0) || (leapYear%100!==0))){
+    if((Year%4==0) && ((Year%400==0) || (Year%100!==0))){
       return true;
   }
   else{
