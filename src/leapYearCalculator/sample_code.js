@@ -1,12 +1,13 @@
-function leapYearCalcutor() {
+function leapYearCalculator() {
     // Write your code here
+    
 };
 
 // Write the code to call your function here
 
 
-module.export = {
-    leapYearCalcutor
+module.exports = {
+    leapYearCalculator
 }
 
 
