@@ -8,7 +8,7 @@ if (year%4===0 && year%100===0 && year%400===0) {
 }
     
 };
-console.log(leapYearCalculator(1700));
+console.log(leapYearCalculator(2000));
 
 
 module.exports = {
