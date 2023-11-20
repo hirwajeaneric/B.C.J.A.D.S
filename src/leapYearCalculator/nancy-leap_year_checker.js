@@ -10,4 +10,4 @@ function leapYearChecker(year) {
 // Write the code to call your function here
 
 }
-console.log(leapYearChecker);
+console.log(leapYearChecker(2000));
