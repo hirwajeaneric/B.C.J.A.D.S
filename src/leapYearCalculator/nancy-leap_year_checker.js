@@ -1,26 +1,13 @@
-function leapYearChecker(number) {
+function leapYearChecker(year) {
     // Write your code here
-        if (year /  4) {
+        if (year %4 === 0 || year %100 === 0 || year % 400 === 0) {
             return true
-        }
-        else if (year /100 ) {
-            return true;
-        }
-    
-        else if (year / 400) {
-            return true;
-        }
-        else if (year / 366) {
-            return true;
-        }
-        else if (year / 365) {
-            return true;
-        }
+       
+    }else{
+        return false
     }
 
 // Write the code to call your function here
 
-
-var year = [1700, 1800, 1900, 2100, 2200, 2300, 2500, 2600];
-    leapYearChecker
-console.log(year);
+}
+console.log(leapYearChecker);
