@@ -1,0 +1,18 @@
+
+function leapYearChecker(leap ){
+        
+        if(i%2===0||i%4===0){
+            return leap;
+        }else if(i%2===0||i%100===0){
+           return  leap;
+        }else if(i%2===0||i%400===0){
+            return leap;
+
+        }else if(i===366){
+            return leap ;
+        }else{
+             return not leap ;
+        }
+    }
+
+console.log(leapYearChecker(1600));
