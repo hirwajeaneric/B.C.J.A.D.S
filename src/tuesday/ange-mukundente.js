@@ -1,16 +1,8 @@
 // Write codes for the first function bellow this line
- function countVowels(vowel){
-    var vowel = ["i","u","o","a","e"];
-    var counts = 0;
-    var lowercase = vowel.toLowerCase()
-for(i=0; i<vowel.length; i++){
-    if(vowel.includes(lowercase[i])){
-        counts++;    }
-}
-return counts
-}
-
-console.log(countVowels('mukundente'));
+function countVowel(str) {
+    return str.split(/[aeiou]/i).length - 1;
+  }
+  console.log(countVowel("mukundente"))
 
 
 // Write codes for the second function bellow this line
@@ -26,9 +18,12 @@ console.log(sortArrayAscendingly(numbers));
 
 
 // Write codes for the third function bellow this line
-function temperatureConverting(temp){
+function convertingCelsiusToFahrenheit(celsius) {
+    return (celsius * 9/5) + 32;
+  }
+  console.log(convertingCelsiusToFahrenheit(36))
  
-}
+// }
 
 
 // module.exports = {
