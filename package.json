@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Backend Class Cohort 9 Exercises and Tasks",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hirwajeaneric/B.C.J.A.D.S.git"
+    "url": "https://github.com/hirwajeaneric/B.C.J.A.D.S.git"
   },
   "keywords": [
     "JavaScript",
@@ -18,7 +21,7 @@
     "Algorithms"
   ],
   "author": "Hirwa Jean Eric",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hirwajeaneric/B.C.J.A.D.S/issues"
   },
