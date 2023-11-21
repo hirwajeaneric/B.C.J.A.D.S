@@ -28,9 +28,9 @@ function countVowels(inputString){
 
 
     //q3.
-    function convertsTemp(c,f){
-        tFahrenheit = (tCelcius * 9/5) + 32;
+    function convertsTemp(c){
+        var tFahrenheit = (c* 9/5) + 32;
         return tFahrenheit;
     }
-    console.log(convertsTemp);
+    console.log(convertsTemp(50));
     

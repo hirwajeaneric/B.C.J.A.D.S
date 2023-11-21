@@ -8,7 +8,7 @@ However, there is still a small error that must be accounted for. To eliminate t
 
 For this reason, the following years are not leap years:
 
-1700, 1800, 1900, 2100, 2200, 2300, 2500, 2600
+1700, 1800, 1900, 2100,     , 2300, 2500, 2600
 
 This is because they are evenly divisible by 100 but not by 400.
 
