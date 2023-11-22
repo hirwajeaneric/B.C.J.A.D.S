@@ -1,4 +1,4 @@
-# Question
+an# Question
 ## Calculator Switch:
 Write a JavaScript program that takes two numbers and an operator (+, -, *, /) as input and uses a switch case to perform the corresponding operation.
 The function name should be: "calculator"
