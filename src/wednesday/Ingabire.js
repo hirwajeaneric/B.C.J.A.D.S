@@ -35,5 +35,3 @@ function operations(num1,operation,num2){
                     const num2 = 2;
                     const operation='+';
                     console.log(operations(6,2));
-
-            
