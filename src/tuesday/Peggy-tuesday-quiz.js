@@ -10,7 +10,7 @@ function vowelCounter(str){
     }
     return n;
 }
-console.log(vowelCounter("counting vowels"));
+console.log(vowelCounter("counting a vowels"));
 
 // Write codes for the second function bellow this line
 function arraySorter( arr ){
