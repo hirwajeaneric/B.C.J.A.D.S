@@ -8,4 +8,4 @@ else{
 }
 }     
 
-console.log('The enter year is leap year:', leapYearCalculator(2600));
+console.log( leapYearCalculator(2600));
