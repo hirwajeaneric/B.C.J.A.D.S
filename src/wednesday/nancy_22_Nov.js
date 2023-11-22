@@ -15,5 +15,5 @@ function calculator(num1,operator,num2) {
     } 
 
     }
-    console.log(calculator(15 '+'3));
+    console.log(calculator(15,'+',3));
 
