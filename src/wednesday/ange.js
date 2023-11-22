@@ -28,4 +28,4 @@ let operation ="+";
 
 
 let answer = calculator(number1, number2, operation);
-  console.log(result);
+  console.log(answer);
