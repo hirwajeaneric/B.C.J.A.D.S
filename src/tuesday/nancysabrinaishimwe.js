@@ -10,13 +10,24 @@
    console.log(countWords("Hello", 1, 'a')); 
 
 // Write codes for the second function bellow this line
-function sortingArray(arr){
-   if(arr>=0,; arr--) 
+function sortAndArrange(arr) {
+    arr.sort((a, b) => a - b);
+    console.log(numbers);
+    var firstThreeNumbers = numbers.slice(0, 3);
+    console.log(firstThreeNumbers); 
 }
-
+var numbers = [3, 4, 8, 2, 1, 2, 2, 6, 3, 4];
+sortAndArrange(numbers);
 
 // Write codes for the third function bellow this line
 
+function converTemp(celsius) {
+    var fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
+  }
+  console.log(converTemp(25)); 
+  console.log(converTemp(-10)); 
+  
 
 
 module.exports = {
