@@ -24,6 +24,6 @@ function fahrenheit(celsius){
     return (celsius * 9/5) + 32;
 }
 var celcius=40;
-console.log(fahrenheit(celcius));
+console.log(fahrenheit(celcius))
 
 
