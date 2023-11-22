@@ -28,7 +28,7 @@ function temperatureConverter(fahrenheit,celsius) {
     
 }
 
-console.log(temperatureConverter(120,38));
+console.log(temperatureConverter21(120,38));
 
 // module.exports = {
 //     vowelCounter,
