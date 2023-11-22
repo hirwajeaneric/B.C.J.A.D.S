@@ -10,7 +10,7 @@ function leapYearCalculator(year) {
     
 };
 
-console.log(leapYearCalculator(2005));
+console.log(leapYearCalculator(2500));
 
 
 module.exports = {
