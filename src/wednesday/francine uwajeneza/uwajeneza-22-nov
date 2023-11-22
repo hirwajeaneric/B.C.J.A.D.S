@@ -1,0 +1,25 @@
+function calculator( num1,num2,operation){
+    const result;
+   // (+, -, *, /)
+    switch(operation){
+        case:"+";
+        result="operation";
+        break;
+        case:"-";
+        result="operation";
+        break;
+        case:"*";
+        result="operation";
+        break;
+        case:"/";
+        result="operation";
+        break;
+        default;
+        result="try one";
+        return result;
+    }
+    const num1=10;
+    const num2=5;
+     const operation=(num1,num2);
+    console.log(operation("+"));
+}
