@@ -17,7 +17,7 @@ function calculator(num1, num2, operator) {
     }
 }
 
-// Example usage:
+
 const number1 = 10;
 const number2 = 5;
 const operation = '+';
