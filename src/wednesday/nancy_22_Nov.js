@@ -1,6 +1,6 @@
 function calculator(num1,operator,num2) {
     switch(operator) {
-        
+
         case '+':
             return num1 + num2;
             
@@ -15,5 +15,5 @@ function calculator(num1,operator,num2) {
     } 
 
     }
-    console.log(calculator(15,3));
+    console.log(calculator(15 '+'3));
 
